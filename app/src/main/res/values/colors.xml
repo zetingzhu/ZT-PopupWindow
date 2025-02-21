@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="salmon">#FF2414</color>
+    <color name="qmui_config_color_white">#4336F4</color>
+    <color name="magenta">#95F436</color>
+    <color name="color_FFD333">#FFD333</color>
+    <color name="color_FF8702">#FF8702</color>
+    <color name="color_77FF89">#77FF89</color>
+    <color name="color_3700B3">#43B30015</color>
 </resources>
