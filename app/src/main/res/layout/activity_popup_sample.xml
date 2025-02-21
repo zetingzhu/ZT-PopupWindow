@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PopupSampleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".PopupSampleActivity">
+
+        <TextView
+            android:id="@+id/tv_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/tv_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下方设置引导"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上方设置引导"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dialog"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击透传"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="指引提示"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部 PopupWindows"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部 View"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="外部可以触摸，不消失当前的"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tv_text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通过 content 插入引导气泡"
+            android:textSize="30dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
